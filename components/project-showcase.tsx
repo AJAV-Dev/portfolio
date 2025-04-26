@@ -56,7 +56,7 @@ const projects = [
     image: "/images/hplc-transfer-tool.png",
     category: "chemistry",
     tags: ["HPLC", "Transferencia de Métodos", "Cromatografía"],
-    link: "metodos-hplc.vercel.app",
+    link: "https://metodos-hplc.vercel.app",
   },
   {
     id: 6,
