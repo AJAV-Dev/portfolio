@@ -11,33 +11,33 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 const projects = [
   {
     id: 1,
-    title: "Herramienta de Análisis de Estructuras Moleculares",
+    title: "🧪 Calculadora de Normalidad y Molaridad",
     description:
-      "Una herramienta de software para analizar y visualizar estructuras moleculares a partir de datos espectroscópicos.",
-    image: "/images/molecular-structure-tool.jpg",
+      "Esta aplicación permite calcular instrucciones de laboratorio para preparar soluciones ácidas o básicas con una concentración deseada en molaridad (M) o normalidad (N), partiendo de una solución madre concentrada.",
+    image: "/images/normality-molarity-tool.png",
     category: "chemistry",
-    tags: ["Espectroscopía", "Análisis de Datos", "Visualización"],
-    link: "#",
+    tags: ["React, Ácidos", "Bases", "Calculadora"],
+    link: "https://calculadora-acidos-bases.vercel.app/",
   },
   {
     id: 2,
-    title: "Sistema de Gestión de Inventario de Laboratorio",
+    title: "📚 Sistema de Gestión de Inventario de Libros (CRUD)",
     description:
-      "Una aplicación web para el seguimiento de productos químicos, equipos y suministros en laboratorios de investigación.",
-    image: "/images/lab-inventory-system.jpg",
+      "Una aplicación web para gestionar un inventario de libros. Permite agregar, editar, eliminar y visualizar libros en una tabla dinámica, conectada a un backend desarrollado con JSON Server.",
+    image: "/images/books-inventory-system.png",
     category: "software",
-    tags: ["React", "Base de Datos", "Gestión de Laboratorio"],
-    link: "#",
+    tags: ["Vue", "Base de Datos", "Gestión"],
+    link: "https://app-inventario-de-libros.vercel.app",
   },
   {
     id: 3,
-    title: "Simulador de Cinética de Reacciones",
+    title: "Calculadora de pH para Soluciones Amortiguadoras",
     description:
-      "Una herramienta computacional para modelar y predecir la cinética de reacciones químicas en diversas condiciones.",
-    image: "/images/reaction-kinetics.jpg",
+      "Una herramienta para calcular el pH para soluciones amortiguadoras.",
+    image: "/images/buffer-calculator.jpg",
     category: "chemistry",
-    tags: ["Cinética", "Simulación", "Modelado de Datos"],
-    link: "#",
+    tags: ["Buffer", "pH", "Cálculadora", "React"],
+    link: "https://calculadora-buffers.vercel.app",
   },
   {
     id: 4,

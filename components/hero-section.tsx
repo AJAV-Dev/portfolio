@@ -2,6 +2,7 @@
 
 import { ArrowDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { SocialLinks } from "@/components/social-links"
 
 export function HeroSection() {
   return (
@@ -15,8 +16,7 @@ export function HeroSection() {
               </h1>
               <br></br>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Bienvenido a mi portafolio, donde la ciencia y el desarrollo se encuentran para dar vida a soluciones
-                innovadoras.
+                Bienvenido a mi portafolio!!.
               </p>
             </div>
             <br></br>
@@ -34,6 +34,13 @@ export function HeroSection() {
               >
                 Contactar
               </Button>
+
+              <div className="flex justify-center md:justify-start">
+                <SocialLinks />
+              </div>
+
+
+
             </div>
             <div className="pt-8 hidden md:block">
               <Button

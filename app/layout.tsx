@@ -14,9 +14,9 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
-  title: "Álvaro José - Portfolio de Química y Desarrollo",
-  description: "Un portfolio multidisciplinario que muestra experiencia en química y desarrollo de software",
-    generator: 'v0.dev'
+  title: "CV Alvaro José Avendaño",
+  description: "Mi portfolio, donde muestro mi experiencia en química y desarrollo de software",
+  icons: { icon: "/favicon.ico" },
 }
 
 export default function RootLayout({
