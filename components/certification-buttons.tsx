@@ -5,29 +5,26 @@ import { Button } from "@/components/ui/button"
 export function CertificationButtons() {
   const certifications = [
     {
-      name: "JavaScript Avanzado",
-      url: "https://www.linkedin.com/learning/certificates/example1",
+      name: "B1 Intermediate English Certificate of Proficiency",
+      url: "https://www.linkedin.com/in/alvaro-jose-avendano/overlay/1744243940472/single-media-viewer?type=DOCUMENT&profileId=ACoAADLlyBoBUzIz3xsQoYL0RUAjmolTem1vzhE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bl2kYan%2FAT0SsmWauQtsWyw%3D%3D",
     },
     {
-      name: "React Fundamentals",
-      url: "https://www.linkedin.com/learning/certificates/example2",
+      name: "Análisis y Visualización de Datos",
+      url: "https://www.linkedin.com/in/alvaro-jose-avendano/details/certifications/1742563342436/single-media-viewer/?type=DOCUMENT&profileId=ACoAADLlyBoBUzIz3xsQoYL0RUAjmolTem1vzhE",
     },
     {
-      name: "Análisis de Datos Químicos",
-      url: "https://www.linkedin.com/learning/certificates/example3",
+      name: "SCRUM Foundation Professional (SFP)​",
+      url: "https://certione.org/certificate-verification/36E39FD-36E3933-312AAEA/",
     },
     {
-      name: "Desarrollo Web Full Stack",
-      url: "https://www.linkedin.com/learning/certificates/example4",
+      name: "Microsoft Word, Excel, PowerPoint",
+      url: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-e97d2016-b8c9-435e-9975-a2040e9cf81d.pdf",
     },
     {
-      name: "Gestión de Proyectos",
-      url: "https://www.linkedin.com/learning/certificates/example5",
+      name: "SAP Business Technology Platform",
+      url: "https://academy.logaligroup.com/mod/simplecertificate/verify.php?code=678fa5cb-cec4-4f58-bfc4-59e56c3dcfbb",
     },
-    {
-      name: "Técnicas Analíticas Avanzadas",
-      url: "https://www.linkedin.com/learning/certificates/example6",
-    },
+    
   ]
 
   return (

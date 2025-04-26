@@ -8,36 +8,37 @@ interface TimelineProps {
 
 export function Timeline({ onItemClick }: TimelineProps) {
   const educationItems = [
+
     {
-      title: "Ph.D. en Química",
-      institution: "Universidad Nacional, 2015-2019",
-      description:
-        "Especializado en química analítica con enfoque en métodos espectroscópicos para la determinación de estructuras moleculares. Disertación sobre nuevos enfoques para analizar mezclas moleculares complejas.",
-    },
-    {
-      title: "M.S. en Química",
-      institution: "Universidad Central, 2013-2015",
+      title: "Profesional en Química",
+      institution: "Universidad Santiago de Cali, 2019-2025",
       description:
         "Enfoque en química física y métodos computacionales. Tesis sobre modelado computacional de mecanismos de reacción.",
     },
     {
-      title: "B.S. en Química",
-      institution: "Universidad Estatal, 2009-2013",
+      title: "Técnico en Desarrollo de Software",
+      institution: "Politécnico internacional de Occidente, 2024-2025",
       description:
         "Graduado con honores. Especialización secundaria en Ciencias de la Computación, lo que despertó mi interés en combinar la química con la programación.",
+    },
+    {
+      title: "Tecnologo Químico",
+      institution: "Universidad del Valle, 2015-2018",
+      description:
+        "Enfoque en química física y métodos computacionales. Tesis sobre modelado computacional de mecanismos de reacción.",
     },
   ]
 
   const experienceItems = [
     {
-      title: "Desarrollador Senior de Software",
-      company: "TechLab Solutions, 2022-Presente",
+      title: "Desarrollador de Software",
+      company: "independiente, 2024-Presente",
       description:
         "Desarrollo de soluciones de software especializadas para aplicaciones científicas, centrándome en herramientas de análisis de datos para laboratorios de investigación. Liderando un equipo de desarrolladores que trabajan en sistemas de gestión de información de laboratorio.",
     },
     {
-      title: "Científico Investigador & Desarrollador de Software",
-      company: "Instituto de Investigación Aplicada, 2019-2022",
+      title: "Practicante profesional en química",
+      company: "Bureau Veritas Colombia, 2019-2022",
       description:
         "Realicé investigación química mientras desarrollaba herramientas de software para automatizar el análisis y visualización de datos. Creé aplicaciones personalizadas para la optimización del flujo de trabajo de laboratorio y la gestión de datos.",
     },
@@ -45,7 +46,7 @@ export function Timeline({ onItemClick }: TimelineProps) {
       title: "Asistente de Investigación",
       company: "Laboratorio Universitario, 2015-2019",
       description:
-        "Asistí en proyectos de investigación mientras cursaba el doctorado. Desarrollé scripts y pequeñas aplicaciones para automatizar el procesamiento de datos para análisis espectroscópicos, lo que despertó mi interés en un desarrollo de software más extenso.",
+        "Asistí en proyectos de investigación mientras cursaba el pregrado. Desarrollé scripts y pequeñas aplicaciones para automatizar el procesamiento de datos para análisis espectroscópicos, lo que despertó mi interés en un desarrollo de software más extenso.",
     },
   ]
 

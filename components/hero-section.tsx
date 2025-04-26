@@ -3,6 +3,7 @@
 import { ArrowDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { SocialLinks } from "@/components/social-links"
+import Image from "next/image"
 
 export function HeroSection() {
   return (
@@ -15,11 +16,15 @@ export function HeroSection() {
                 ¡Hola! Soy Alvaro José
               </h1>
               <br></br>
-              <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Bienvenido a mi portafolio!!.
+              <p className="max-w-[600px] font-bold md:text-3xl">
+                Profesional en química y técnico en desarrollo de software.
+              </p>
+              <p className="max-w-[600px] text-muted-foreground md:text-xl text-justify">
+              Aplico conocimientos adquiridos durante mis prácticas en la optimización y análisis de procesos de laboratorio, e implementación de mejoras continuas, contribuyendo a la eficiencia operativa y calidad de los procesos dentro de una organización, apoyando en la identificación de oportunidades de mejora, análisis de datos y gestión de recursos desarrollando soluciones que aumenten la productividad, reduzcan costos y mejoren la competitividad de la empresa.
               </p>
             </div>
             <br></br>
+
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button
                 className="bg-primary hover:bg-primary/90 text-primary-foreground"
@@ -38,10 +43,9 @@ export function HeroSection() {
               <div className="flex justify-center md:justify-start">
                 <SocialLinks />
               </div>
-
-
-
             </div>
+
+
             <div className="pt-8 hidden md:block">
               <Button
                 variant="ghost"
@@ -55,10 +59,13 @@ export function HeroSection() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            {/* Espacio reservado para futura imagen de perfil */}
-            <div className="relative h-[300px] w-[300px] sm:h-[400px] sm:w-[400px] lg:h-[450px] lg:w-[450px] border-2 border-dashed border-muted-foreground/30 rounded-full flex items-center justify-center">
-              <p className="text-muted-foreground text-center px-8">Espacio reservado para imagen de perfil</p>
-            </div>
+          <Image className="relative h-[300px] w-[300px] sm:h-[400px] sm:w-[400px] lg:h-[450px] lg:w-[450px] border-2 border-dashed border-muted-foreground/30 rounded-full flex items-center justify-center"
+                src="/images/perfil-image.png"
+                alt="Imagen de perfil"
+                width={450}
+                height={450}
+                priority
+              />
           </div>
         </div>
       </div>

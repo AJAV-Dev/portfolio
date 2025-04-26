@@ -24,7 +24,7 @@ export function AboutSection() {
     <section id="about" className="py-16 bg-background">
       <div className="container max-w-5xl mx-auto px-4">
         <div className="flex flex-col gap-8">
-          <div className="space-y-4 text-center">
+          {/* <div className="space-y-4 text-center">
             <h2 className="text-4xl font-bold tracking-tight text-foreground">Sobre Mí</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Un profesional multidisciplinario con experiencia en Química y Desarrollo de Software
@@ -53,14 +53,16 @@ export function AboutSection() {
               </p>
             </div>
             <div className="relative aspect-square overflow-hidden rounded-xl border-2 border-secondary/20 shadow-lg">
-              <Image src="/images/profile-photo.jpg" alt="Foto de perfil" fill className="object-cover" priority />
+              <Image src="/images/profile-photo.png" alt="Foto de perfil" fill className="object-cover" priority />
             </div>
-          </div>
+          </div> */}
+          
 
           <div className="space-y-6 mt-8">
             <h3 className="text-3xl font-bold tracking-tight text-center text-foreground">Educación & Experiencia</h3>
             <Timeline onItemClick={openModal} />
           </div>
+
 
           <div className="space-y-8 mt-8">
             <div className="space-y-4">
@@ -106,7 +108,7 @@ export function AboutSection() {
           </div>
 
           <div className="space-y-6 mt-8">
-            <h3 className="text-3xl font-bold tracking-tight text-center text-foreground">Certificaciones LinkedIn</h3>
+            <h3 className="text-3xl font-bold tracking-tight text-center text-foreground">Certificaciones </h3>
             <CertificationButtons />
           </div>
         </div>
