@@ -12,7 +12,7 @@ export function SocialLinks() {
         </Link>
       </Button>
       <Button asChild variant="outline" size="icon">
-        <Link href="https://www.linkedin.com/in/alvaro-jose-avendano" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.linkedin.com/in/alvarojav" target="_blank" rel="noopener noreferrer">
           <Linkedin className="h-5 w-5" />
           <span className="sr-only">LinkedIn</span>
         </Link>
