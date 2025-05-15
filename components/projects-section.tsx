@@ -7,7 +7,7 @@ export function ProjectsSection() {
         <div className="space-y-4 text-center">
           <h2 className="text-4xl font-bold tracking-tight text-foreground">Proyectos</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Explora mi trabajo en química y desarrollo de software
+            Explora mi trabajo!!
           </p>
         </div>
 

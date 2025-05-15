@@ -41,7 +41,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Sistema de automatización de reportes con python",
+    title: "Sistema de automatización de reportes con Python",
     description: "Un sistema para automatizar la generación de reportes en formato PDF utilizando Python.",
     image: "/images/cooming-soon.png",
     category: "software",
@@ -60,12 +60,12 @@ const projects = [
   },
   {
     id: 6,
-    title: "Base de Datos de Publicaciones Científicas",
+    title: "Software de facturación e inventario",
     description:
-      "Una base de datos consultable de publicaciones científicas con seguimiento de citas y funciones de recomendación.",
+      "Realizado con JS + PHP + HTML5 + AJAX + MySQL.",
     image: "/images/cooming-soon.png",
     category: "software",
-    tags: ["Diseño de Bases de Datos", "Algoritmos de Búsqueda", "Investigación Académica"],
+    tags: ["Diseño de Bases de Datos", "Algoritmos de Búsqueda", "Gestión de Inventario"],
     link: "#",
   },
 ]

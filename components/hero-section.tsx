@@ -20,7 +20,7 @@ export function HeroSection() {
                 Profesional en química y técnico en desarrollo de software.
               </p>
               <p className="max-w-[600px] text-muted-foreground md:text-xl text-justify">
-              Aplico conocimientos adquiridos durante mis prácticas en la optimización y análisis de procesos de laboratorio, e implementación de mejoras continuas, contribuyendo a la eficiencia operativa y calidad de los procesos dentro de una organización, apoyando en la identificación de oportunidades de mejora, análisis de datos y gestión de recursos desarrollando soluciones que aumenten la productividad, reduzcan costos y mejoren la competitividad de la empresa.
+              Capaz de diseñar, construir y mantener la lógica del lado del servidor, desarrollar APIs eficientes e integrar bases de datos para asegurar aplicaciones seguras, escalables y de alto rendimiento.
               </p>
             </div>
             <br></br>
